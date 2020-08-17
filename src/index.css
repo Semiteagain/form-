@@ -1,13 +1,54 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+    font-family: "Roboto", sans-serif;
+    background-color: #29a387;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  form {
+    background: white;
+    float: left;
+    width: 400px;
+    height: 500px;
+    margin: 60px 0px 0px 40px;
+    border-radius: 25px;
+    padding: 20px;
+  }
+  .certify {
+    float:right;
+    background: white;
+    width: 700px;
+    height: 500px;
+    margin: 60px 40px 0px 0px;
+    border-radius: 25px;
+    padding-top: 40px;
+    border: 10px solid #787878;
+    text-align: center;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+  }
+  
+  
+  form div, form h1 {
+    margin-left: 20px;
+    width: 100%;
+    margin-top: 25px;
+  }
+  input ,label {
+    width: 80%;
+    border-radius: 10px;
+    height: 20px;
+    padding: 20px;
+  }
+  
+  .certify button {
+    width: 40%;
+    background-color: #29a387;
+    color: white;
+    margin-top: 130px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+  }
+  
+ 
